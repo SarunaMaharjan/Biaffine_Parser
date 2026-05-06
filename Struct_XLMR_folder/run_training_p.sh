@@ -40,7 +40,7 @@ python src/Struct_xlmr_scripts/main_parser.py \
   --custom_pretrained_model ${CUSTOM_MODEL_PATH} \
   --base_model_name ${BASE_MODEL_NAME} \
   --tokenizer_path ${TOKENIZER_PATH} \
-  --epochs 20 \
+  --epochs 10 \
   --batch_size 16 \
   --lr 3e-5 \
   --save_dir ${SAVE_DIR} 
